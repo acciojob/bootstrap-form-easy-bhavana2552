@@ -3,11 +3,87 @@
 <html>
 
 <head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="styles.css">
+	<title>summer internship</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form>
+		<div class="row mb-3">
+		  <label for="First Name" class="col-sm-2 col-form-label">First Name</label>
+		  <div class="col-sm-10">
+			<input type="text" class="form-control" id="first-name-input">
+		  </div>
+		</div>
+		<div class="row mb-3">
+		  <label for="Last Name" class="col-sm-2 col-form-label">Last Name</label>
+		  <div class="col-sm-10">
+			<input type="text" class="form-control" id="last-name-input">
+		  </div>
+		</div>
+		<div class="row mb-3">
+				<label for="Email" class="col-sm-2 col-form-label">Email</label>
+				<div class="col-sm-10">
+				<input type="text" class="form-control" id="email-input">
+				</div>
+		</div>
+		<div class="row mb-3">
+				<label for="Collage Name" class="col-sm-2 col-form-label">Collage Name</label>
+				<div class="col-sm-10">
+				<input type="text" class="form-control" id="college-input">
+				</div>
+		</div>
+		<div class="row mb-3">
+			<label for="Roll No" class="col-sm-2 col-form-label">Roll No</label>
+			<div class="col-sm-10">
+			<input type="text" class="form-control" id=" roll-no-input">
+			</div>
+	    </div>
+		<fieldset class="row mb-3">
+		  <legend class="col-form-label col-sm-2 pt-0">Graduation Year </legend>
+		  <div class="col-sm-10">
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+			  <label class="form-check-label" for="gridRadios1">
+				2020
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+			  <label class="form-check-label" for="gridRadios2">
+				2021
+			  </label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+				<label class="form-check-label" for="gridRadios2">
+				  2022
+				</label>
+			</div>
+            <div class="form-check">
+				<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+				<label class="form-check-label" for="gridRadios2">
+				  2023
+				</label>
+			</div>
+			
+		  </div>
+		</fieldset>
+		<div class="row mb-3">
+		  <div class="col-sm-10 offset-sm-2">
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" id="conditions-checkbox">
+			  <label class="form-check-label" for="gridCheck1">
+				Condition Checkbox
+			  </label>
+			</div>
+		  </div>
+		</div>
+		<button type="submit" class="btn btn-primary">submit</button>
+	  </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
